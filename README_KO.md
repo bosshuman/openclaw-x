@@ -100,6 +100,13 @@ cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
 > - localhost에서만 수신, **공용 네트워크에 노출하지 마세요**
 > - `cookies.json`에는 민감한 정보가 포함, **유출하지 마세요**
 
+> [!WARNING]
+> **보안 권장사항**
+> - 🛡️ 메인 계정 대신 **부계정** 사용을 권장합니다
+> - 📦 가능하면 **격리된 환경**(컨테이너 / VM)에서 실행하세요
+> - 🔐 `cookies.json`은 비밀번호와 동일하게 관리하세요 — 전체 계정 접근 권한을 부여합니다
+> - 🚫 실행 파일이나 `cookies.json`을 타인과 공유하지 마세요
+
 ---
 
 <div align="center">

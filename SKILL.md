@@ -9,8 +9,9 @@ description: 操控你的 X/Twitter 账号——查看时间线、搜索推文�
 
 ## 前置要求
 
-1. 确保 openclaw-x 服务已启动：`http://localhost:19816`
-2. 如未启动，进入 openclaw-x 目录执行 `python main.py`
+1. 从 [GitHub Release](https://github.com/bosshuman/openclaw-x/releases) 下载对应平台的可执行文件
+2. 从 Chrome 导出 X 的 cookies（使用 Cookie-Editor 扩展），保存为 `cookies.json` 放在可执行文件同目录
+3. 运行可执行文件，确保服务已启动：`http://localhost:19816`
 
 ## 可用操作
 

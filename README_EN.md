@@ -120,6 +120,13 @@ curl -X POST http://localhost:19816/tweet/1234567890/like
 > - Listens on localhost only, **do not expose to public network**
 > - `cookies.json` contains sensitive login data, **keep it safe**
 
+> [!WARNING]
+> **Security Recommendations**
+> - 🛡️ Use a **secondary X account** (not your primary) for safety
+> - 📦 Run in an **isolated environment** (container / VM) when possible
+> - 🔐 Treat `cookies.json` like a password — it grants full account access
+> - 🚫 Never share the executable or `cookies.json` with untrusted parties
+
 ---
 
 <div align="center">

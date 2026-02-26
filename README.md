@@ -120,6 +120,13 @@ curl -X POST http://localhost:19816/tweet/1234567890/like
 > - 仅监听 localhost，**请勿暴露到公网**
 > - `cookies.json` 包含敏感登录信息，**请勿泄露**
 
+> [!WARNING]
+> **安全建议**
+> - 🛡️ 建议使用 **X 小号**（非主账号）运行
+> - 📦 尽量在 **隔离环境**（容器 / 虚拟机）中运行
+> - 🔐 `cookies.json` 等同于你的登录凭证，请像对待密码一样保管
+> - 🚫 不要将可执行文件或 `cookies.json` 分享给他人
+
 ---
 
 <div align="center">
