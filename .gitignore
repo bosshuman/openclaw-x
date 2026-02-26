@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+.env
+cookies.json
+article*.md
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+main.py
+requirements.txt
+.env.example
+cover.png
+release/openclaw-x
+.github/
