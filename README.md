@@ -11,7 +11,7 @@
 [![Release](https://img.shields.io/github/v/release/bosshuman/openclaw-x?style=flat-square&color=00c853)](https://github.com/bosshuman/openclaw-x/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-blue?style=flat-square)](https://github.com/bosshuman/openclaw-x/releases)
 [![ClawHub](https://img.shields.io/badge/ClawHub-xskill-orange?style=flat-square)](https://clawhub.ai)
-[![License](https://img.shields.io/badge/license-proprietary-lightgrey?style=flat-square)]()
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 [English](README_EN.md) · **中文** · [日本語](README_JA.md) · [한국어](README_KO.md)
 
