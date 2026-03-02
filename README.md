@@ -68,7 +68,7 @@ openclaw-x-windows-x64.exe
 
 ```bash
 # 通过 ClawHub 安装
-npx clawhub@latest install xskill
+npx clawhub@latest install openclaw-x
 
 # 或手动复制
 cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
