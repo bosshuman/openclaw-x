@@ -1,6 +1,6 @@
 ---
 name: openclaw-x
-version: 0.1.0
+version: 0.2.2
 description: Control your X/Twitter account — view timeline, search tweets, post, like, retweet, bookmark.
 ---
 

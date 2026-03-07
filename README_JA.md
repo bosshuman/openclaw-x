@@ -13,7 +13,7 @@
 [![ClawHub](https://img.shields.io/badge/ClawHub-xskill-orange?style=flat-square)](https://clawhub.ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-[English](README_EN.md) · [中文](README.md) · **日本語** · [한국어](README_KO.md)
+[English](README.md) · [中文](README_CN.md) · **日本語** · [한국어](README_KO.md)
 
 </div>
 
