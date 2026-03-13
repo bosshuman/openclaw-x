@@ -10,7 +10,7 @@
 
 [![Release](https://img.shields.io/github/v/release/bosshuman/openclaw-x?style=flat-square&color=00c853)](https://github.com/bosshuman/openclaw-x/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-blue?style=flat-square)](https://github.com/bosshuman/openclaw-x/releases)
-[![ClawHub](https://img.shields.io/badge/ClawHub-xskill-orange?style=flat-square)](https://clawhub.ai)
+[![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--x-orange?style=flat-square)](https://clawhub.ai/bosshuman/openclaw-x)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 [English](README.md) · **中文** · [日本語](README_JA.md) · [한국어](README_KO.md)
@@ -68,7 +68,7 @@ openclaw-x-windows-x64.exe
 
 ```bash
 # 通过 ClawHub 安装
-npx clawhub@latest install xskill
+npx clawhub@latest install openclaw-x
 
 # 或手动复制
 cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
