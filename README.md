@@ -93,6 +93,32 @@ cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
 
 ---
 
+## Related OpenClaw X/Twitter Workflows
+
+OpenClaw X is a local service for timeline reads, tweet search, tweet details,
+posting, likes, retweets, bookmarks, and user lookups.
+
+For OpenClaw workspaces that also need search tweet replies, follower export,
+media handling, direct messages, monitors, webhooks, giveaway draws, or
+approval-gated X actions through Xquik, install
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside this skill:
+
+```bash
+openclaw plugins install clawhub:@xquik/tweetclaw
+openclaw config set plugins.entries.tweetclaw.config.apiKey "$XQUIK_API_KEY"
+```
+
+References: [npm](https://www.npmjs.com/package/@xquik/tweetclaw) and
+[ClawHub](https://clawhub.ai/plugins/@xquik/tweetclaw).
+
+TweetClaw asks for confirmation before write-like, private, paid, recurring,
+monitor, webhook, and account-scoped operations.
+
+Xquik is an independent third-party service. Not affiliated with X Corp.
+"Twitter" and "X" are trademarks of X Corp.
+
+---
+
 ## 💬 Examples
 
 ```bash
