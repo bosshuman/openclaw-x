@@ -10,7 +10,7 @@ Local execution · Zero API cost · Privacy-first
 
 [![Release](https://img.shields.io/github/v/release/bosshuman/openclaw-x?style=flat-square&color=00c853)](https://github.com/bosshuman/openclaw-x/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-blue?style=flat-square)](https://github.com/bosshuman/openclaw-x/releases)
-[![ClawHub](https://img.shields.io/badge/ClawHub-xskill-orange?style=flat-square)](https://clawhub.ai)
+[![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--x-orange?style=flat-square)](https://clawhub.ai/bosshuman/openclaw-x)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 [**English**](README_EN.md) · [中文](README.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
@@ -68,7 +68,7 @@ openclaw-x-windows-x64.exe
 
 ```bash
 # Via ClawHub
-npx clawhub@latest install xskill
+npx clawhub@latest install openclaw-x
 
 # Or manually
 cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
@@ -90,6 +90,32 @@ cp SKILL.md ~/.openclaw/skills/openclaw-x/SKILL.md
 | `/tweet/{id}/bookmark` | `POST` | 🔖 Bookmark |
 | `/user/{username}` | `GET` | 👤 User info |
 | `/user/{username}/tweets` | `GET` | 📋 User tweets |
+
+---
+
+## Related OpenClaw X/Twitter Workflows
+
+OpenClaw X is a local service for timeline reads, tweet search, tweet details,
+posting, likes, retweets, bookmarks, and user lookups.
+
+For OpenClaw workspaces that also need search tweet replies, follower export,
+media handling, direct messages, monitors, webhooks, giveaway draws, or
+approval-gated X actions through Xquik, install
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside this skill:
+
+```bash
+openclaw plugins install clawhub:@xquik/tweetclaw
+openclaw config set plugins.entries.tweetclaw.config.apiKey "$XQUIK_API_KEY"
+```
+
+References: [npm](https://www.npmjs.com/package/@xquik/tweetclaw) and
+[ClawHub](https://clawhub.ai/plugins/@xquik/tweetclaw).
+
+TweetClaw asks for confirmation before write-like, private, paid, recurring,
+monitor, webhook, and account-scoped operations.
+
+Xquik is an independent third-party service. Not affiliated with X Corp.
+"Twitter" and "X" are trademarks of X Corp.
 
 ---
 
